@@ -17,3 +17,113 @@ class ntpconfig {
 
 # Class Declaration 
 include ntpconfig
+# Class Definition
+class ntpconfig {
+    # Installing NTP Package
+  package {"ntp":
+    ensure=> "present",
+    }
+    # Configuring NTP configuration file
+  file {"/etc/ntp.conf":
+    ensure=> "present",
+    content=> "server 0.centos.pool.ntp.org iburst\n",
+    }
+    # Starting NTP services
+  service {"ntpd":
+    ensure=> "running",
+    }
+}
+
+# Class Declaration
+include ntpconfig
+
+# Class Definition
+class ntpconfig {
+    # Installing NTP Package
+  package {"ntp":
+    ensure=> "present",
+    }
+    # Configuring NTP configuration file
+  file {"/etc/ntp.conf":
+    ensure=> "present",
+    content=> "server 0.centos.pool.ntp.org iburst\n",
+    }
+    # Starting NTP services
+  service {"ntpd":
+    ensure=> "running",
+    }
+}
+
+# Class Declaration
+include ntpconfig
+
+# Class Definition
+class ntpconfig {
+    # Installing NTP Package
+  package {"ntp":
+    ensure=> "present",
+    }
+    # Configuring NTP configuration file
+  file {"/etc/ntp.conf":
+    ensure=> "present",
+    content=> "server 0.centos.pool.ntp.org iburst\n",
+    }
+    # Starting NTP services
+  service {"ntpd":
+    ensure=> "running",
+    }
+}
+
+# Class Declaration
+
+# Class Definition
+class ntpconfig {
+    # Installing NTP Package
+  package {"ntp":
+    ensure=> "present",
+    }
+    # Configuring NTP configuration file
+  file {"/etc/ntp.conf":
+    ensure=> "present",
+    content=> "server 0.centos.pool.ntp.org iburst\n",
+    }
+    # Starting NTP services
+  service {"ntpd":
+    ensure=> "running",
+    }
+}
+
+# Class Definition
+class ntpconfig {
+    # Installing NTP Package
+  package {"ntp":
+    ensure=> "present",
+    }
+    # Configuring NTP configuration file
+  file {"/etc/ntp.conf":
+    ensure=> "present",
+    content=> "server 0.centos.pool.ntp.org iburst\n",
+    }
+    # Starting NTP services
+  service {"ntpd":
+
+# Class Definition
+class ntpconfig {
+    # Installing NTP Package
+  package {"ntp":
+    ensure=> "present",
+    }
+    # Configuring NTP configuration file
+  file {"/etc/ntp.conf":
+    ensure=> "present",
+    content=> "server 0.centos.pool.ntp.org iburst\n",
+    }
+    # Starting NTP services
+  service {"ntpd":
+    ensure=> "running",
+    }
+}
+
+# Class Declaration
+include ntpconfig
+
